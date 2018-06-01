@@ -20,4 +20,4 @@ The keylogger is distributed by a malicious word document with an embedded macro
 
 Inside the *KeyLogger/KeyLogger/* folder are the source, header and the project files.
 
-Inside the *KeyLogger/Packed Executable/* is the compiled binary of the project, after it was packed with UPX packer - in order to make it harder for the antivirus system to detect the binary and to statically analyze it.
+Inside the *KeyLogger/Packed Executable/* folder is the compiled binary of the project, after it was **packed with UPX packer** - in order to make it harder for the antivirus system to detect the binary and to statically analyze it.
