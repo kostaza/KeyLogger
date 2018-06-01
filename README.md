@@ -22,3 +22,14 @@ Inside the *KeyLogger/KeyLogger/* folder are the source, header and the project 
 
 Inside the *KeyLogger/Packed Executable/* folder is the compiled binary of the project, after it was **packed with UPX packer** - in order to make it harder for the antivirus system to detect the binary and to statically analyze it. In Addition, the KeyLogger compiled to run under the name **_"svchost.exe"_**, for user evasion purpose.
 
+## VBA macro
+
+The VB macro can be embedded in word documents (as showed in the exxample documents inside *Malicious macro/* folder).
+
+* The macro downloads the KeyLogger payload from a hard coded URL
+* Saves it in *C:\Program Files\* as `svchost.exe`
+* Executes it
+* Inserts the KeyLogger to the *Startup* folder in order to auto start it when Windows starts
+
+All the strings inside the malicious macro code were replaced by ASCII value as an obfuscation technique.
+
