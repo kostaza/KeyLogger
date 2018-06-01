@@ -20,5 +20,5 @@ The keylogger is distributed by a malicious word document with an embedded macro
 
 Inside the *KeyLogger/KeyLogger/* folder are the source, header and the project files.
 
-Inside the *KeyLogger/Packed Executable/* folder is the compiled binary of the project, after it was **packed with UPX packer** - in order to make it harder for the antivirus system to detect the binary and to statically analyze it. In Addition, the KeyLogger compiled to run under the name **_"svchost.exe_**, for user evasion purpose.
+Inside the *KeyLogger/Packed Executable/* folder is the compiled binary of the project, after it was **packed with UPX packer** - in order to make it harder for the antivirus system to detect the binary and to statically analyze it. In Addition, the KeyLogger compiled to run under the name **_"svchost.exe"_**, for user evasion purpose.
 
