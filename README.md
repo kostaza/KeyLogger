@@ -27,7 +27,7 @@ Inside the *KeyLogger/Packed Executable/* folder is the compiled binary of the p
 The VB macro can be embedded in word documents (as showed in the exxample documents inside *Malicious macro/* folder).
 
 * The macro downloads the KeyLogger payload from a hard coded URL
-* Saves it in *C:\Program Files\** as `svchost.exe`
+* Saves it in *C:\Program Files\\* as `svchost.exe`
 * Executes it
 * Inserts the KeyLogger to the *Startup* folder in order to auto start it when Windows starts
 
