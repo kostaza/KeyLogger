@@ -14,5 +14,7 @@ The KeyLogger, when not compiled under the _DEBUG_ flag, hides it's own consloe 
 
 When the window name matches on of the predefined names (could be changed inside `Logger.cpp` - inside the `initialize` method), the KeyLogger records the key strokes and saves them loally, until the foreground window is switched.
 
-Then, the KeyLogger uploads the record to the predefined FTP server (which could be changes inside `Uploader.cpp` - by modifying the `HOST`, `USER` and `PASS` constants).
+Then, the KeyLogger uploads the record to the predefined FTP server (which could be changes inside `Uploader.cpp` - by modifying the `HOST`, `USER` and `PASS` constants). The saved output file is named with a timestamp, in the following format: `keystrokes - %Y%m%d_%H%M%S.txt`
+
+
 
